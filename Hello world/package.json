@@ -1,0 +1,32 @@
+{
+  "name": "Onsip",
+  "version": "1.0.0",
+  "description": "start electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "com.example.app",
+    "extraResources": [
+      "./build/onsip.png"
+    ],
+    "win": {
+      "icon": "build/onsip_Ajo_icon.ico"
+    }
+  },
+  "extraFiles": [
+    "./*.dll",
+    "build/onsip.png"
+  ],
+  "author": "Dean Packard",
+  "license": "ISC",
+  "devDependencies": {
+    "menubar": "^5.2.3"
+  },
+  "dependencies": {
+    "node-notifier": "^5.1.2"
+  }
+}

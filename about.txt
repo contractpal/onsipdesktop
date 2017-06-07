@@ -1,0 +1,3 @@
+The JSON file contains build information, the build file has the icons, 
+the javascript file controls what happens during the build as well as event listeners and setting up the window
+Dean Packard 6/7/2017

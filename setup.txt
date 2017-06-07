@@ -1,0 +1,5 @@
+In order to build this app you will need to install a few npm dependencies.
+ you will need to install electron with npm -install electron
+you will have to install electron-builder with npm -install electron-builder
+you will have to install node-notifier with npm install node-notifier
+In order to build this, you need to type npm run dist
